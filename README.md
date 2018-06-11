@@ -1,6 +1,6 @@
 # Teste TUUT
 
-Projeto desenvolvido em HTML, CSS e JavaScript, utilizando a metodologia BEM para criação de códigos legíveis e o task-runner Gulp para geração da build.
+Projeto desenvolvido em HTML, CSS e JavaScript, utilizando a metodologia BEM para criação de códigos legíveis e o task-runner Gulp.
 
 Essas instruções fornecem uma cópia do projeto em funcionamento na sua máquina local.
 
