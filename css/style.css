@@ -94,3 +94,31 @@ body {
     font-weight: bold;
     margin-bottom: 15px;
 }
+
+.projects{
+    min-height: 200px;
+    background-color: #F7F4F4;
+}
+
+.blog{
+    min-height: 200px;
+    background-color: #949BA0;
+}
+
+.footer{
+    background-color: #050505;
+    padding: 20px 0;
+    color: #F7F4F4;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+}
