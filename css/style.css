@@ -16,7 +16,7 @@ body {
 
 .header .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -40,9 +40,11 @@ body {
     color: #F7F4F4;
     text-decoration: none;
     padding: 15px;
+    font-size: 1em;
 }
 
 .header__nav__link:hover{
+
     border-bottom: 1px solid #F7F4F4;
 }
 
@@ -113,7 +115,7 @@ body {
 
 .footer .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
