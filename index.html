@@ -6,11 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TUUT - Test Front End</title>
     <link rel="shortcut icon" href="../img/favicon.png" />
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
 </head>
 <body>
     <header class="header">
@@ -28,7 +24,7 @@
     <main>
         <section class="carousel">
             <figure>    
-                <img class="carousel__img" src="../img/s1.png" alt="Imagem de teste 1">
+                <img class="carousel__img" src="img/s1.png" alt="Imagem de teste 1">
             </figure>
         </section>
             
@@ -45,19 +41,19 @@
             <h3 class="gallery__title">Galeria de fotos</h3>
             <div class="container">
                 <div class="owl-carousel owl-theme">
-                     <figure>
-                       <a href="../img/tuut.png" data-fancybox="image">
-                            <img class="gallery__image item" src="../img/tuut.png" alt="exemplo de imagem">
-                        </a> 
+                    <figure>
+                    <a href="img/tuut.png" data-fancybox="image">
+                        <img class="gallery__image item" src="img/tuut.png" alt="exemplo de imagem">
+                    </a> 
                     </figure>
                 </div>
             </div>
         </section>
                 
-        <section class="projects">
-            <h3 class="projects__title">Alguns de nossos projetos</h3>
-             <div class="accordion">
-                 <div class="accordion__item open">
+        <section class="accordion">
+            <h3 class="accordion__title">Alguns de nossos projetos</h3>
+            <div class="accordion__box">
+                <div class="accordion__item open">
                     <h2 class="accordion__item__heading">Projeto 1</h2>
                     <div class="accordion__item__content">
                         <p>Nosso trabalho é feito em parceria com nossos clientes.</p>
@@ -65,15 +61,14 @@
                         <p>do processo, propondo soluções práticas e acompanhando os resultados</p>
                     </div>
                 </div>
-                          
                 <div class="accordion__item close">
                     <h2 class="accordion__item__heading">Projeto 2</h2>
                     <div class="accordion__item__content">
                         <p>Nosso trabalho é feito em parceria com nossos clientes.</p>
-                        <p>Um trabalho a quatro mãos, em que nos envolvemos em todos os meandros</p>                            <p>do processo, propondo soluções práticas e acompanhando os resultados</p>
+                        <p>Um trabalho a quatro mãos, em que nos envolvemos em todos os meandros</p>                            
+                        <p>do processo, propondo soluções práticas e acompanhando os resultados</p>
                     </div>
-                </div>
-                          
+                </div>         
                 <div class="accordion__item close">
                     <h2 class="accordion__item__heading">Projeto 3</h2>
                     <div class="accordion__item__content">
@@ -96,7 +91,7 @@
                 <div class="blog__box">
                     <h3 class="blog__box__title">Projeto 1 alcançou mais de 2 milhões de acessos</h3>
                     <p class="blog__box__text">Com design e desenvolvimento da TUUT, o Projeto 1 alcançou</p>
-                    <p class="blog__box__text">mais de 2 milhões de acessos. Saiba mais sobre o projeto</p>
+                    <p class="blog__box__text"></p>mais de 2 milhões de acessos. Saiba mais sobre o projeto</p>
                 </div>
             </div>
         </section>
@@ -118,10 +113,6 @@
     </footer>
     
     <script src="../assets/jquery/jquery.min.js"></script> 
-    <script src="../assets/owl_carousel/owl.carousel.min.js"></script>
-    <script src="../assets/fancybox/jquery.fancybox.min.js"></script>
-    <script src="../js/accordion.js"></script>
-    <script src="../js/banner.js"></script>
-    <script src="../js/gallery.js"></script>
+    <script src="js/all.min.js"></script>
 </body>
 </html>
