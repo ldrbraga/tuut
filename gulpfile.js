@@ -5,7 +5,7 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var htmlmin = require('gulp-htmlmin');
 var cleanCss = require('gulp-clean-css');
-
+var imagemin = require('gulp-imagemin');
 
 gulp.task('clean', function(){
 	return gulp.src('dist/')
@@ -38,11 +38,12 @@ gulp.task('cssmin', function(){
 	.pipe(gulp.dest('dist/css'));
 });
 
-gulp.task('copy', function(){
-	return gulp.src('img/*.png')
-    .pipe(gulp.dest('dist/img'))
-});
+gulp.task('imagemin', function(){
+	return gulp.src('img/*')
+	.pipe(imagemin())
+	.pipe(gulp.dest('dist/img'));
+});	
 
-gulp.task('default', ['jshint', 'htmlmin', 'uglify', 'copy', 'cssmin']);
+gulp.task('default', ['jshint', 'htmlmin', 'uglify', 'imagemin', 'cssmin']);
 
 
