@@ -6,6 +6,7 @@ var uglify = require('gulp-uglify');
 var htmlmin = require('gulp-htmlmin');
 var cleanCss = require('gulp-clean-css');
 var imagemin = require('gulp-imagemin');
+var connect = require('gulp-connect');
 
 gulp.task('clean', function(){
 	return gulp.src('dist/')
@@ -44,6 +45,18 @@ gulp.task('imagemin', function(){
 	.pipe(gulp.dest('dist/img'));
 });	
 
-gulp.task('default', ['jshint', 'htmlmin', 'uglify', 'imagemin', 'cssmin']);
+gulp.task('connect', function(){
+	connect.server({
+		root: 'dist',
+		livereload: true
+	});
+});
+
+gulp.task('copy', function(){
+	return gulp.src('assets/jquery/*')
+	.pipe(gulp.dest('dist/assets'));
+});
+
+gulp.task('default', ['jshint', 'htmlmin', 'uglify', 'imagemin', 'cssmin', 'copy', 'connect']);
 
 

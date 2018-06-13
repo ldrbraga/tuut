@@ -32,7 +32,7 @@ npm install
 gulp
 `` 
 
-4 - Abrir o arquivo `` dist/index.html`` 
+4 - O projeto estará disposível localmente no endereço `` http://localhost:8080/`` 
  
 
 ## Demo 
