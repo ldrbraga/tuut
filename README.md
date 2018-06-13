@@ -32,7 +32,7 @@ npm install
 gulp
 `` 
 
-4 - O projeto estará disposível localmente no endereço `` http://localhost:8080/`` 
+4 - O projeto estará disponível localmente no endereço `` http://localhost:8080/`` 
  
 
 ## Demo 
